@@ -1,0 +1,59 @@
+.header {
+    width: 100%;
+    height: 91px;
+    background-color: #23180d;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+} 
+
+.logo {
+    width: 300px;
+    height: 64px;
+}
+
+.home-btn  {
+    width: 66.89px;
+    height: 34px;
+    background: #c52d2f;
+    border-radius: 5px;
+}
+
+.home-btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.api-btn {
+    width: 47.55px;
+    height: 34px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+}
+
+.api-btn a { 
+    color: white;
+    text-decoration: none;
+}
+
+.api-btn:hover {
+    background-color: #d43133;
+}
+
+.style {
+    width: 120px;
+    height: 35.2px;
+    padding: 5px 12px ;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.nav-right {
+    display: flex;
+    gap: 30px;
+}

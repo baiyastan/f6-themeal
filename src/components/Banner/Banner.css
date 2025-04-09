@@ -1,0 +1,56 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh; 
+}
+
+.banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 50vh; 
+
+}
+
+.banner-content  div {
+    text-align: center;
+    max-width: 500px;
+}
+
+.green, .yellow {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.small {
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+.green {
+    width: 88px;
+    height: 36px;
+    background: green;
+    color: white;
+    border-radius: 7px ;
+}
+
+.yellow {
+    width: 117px;
+    height: 36px;
+    background: rgb(245, 245, 24);
+    color: white;
+    border-radius: 7px;
+}
+
+.free {
+    color: #f4722b;
+    text-decoration: none;
+}
+
+.big {
+    color: #ffffff;
+    margin: 0 8px 8px;
+    font-size: 36px;
+}
