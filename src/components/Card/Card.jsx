@@ -1,12 +1,12 @@
 import React from 'react'
 import "./Card.css"
 
-function Card() {
+function Card({pro}) {
   return (
 
     <div className='card-top'>
-      <img className='img' src="https://www.themealdb.com/images/media/meals/xd9aj21740432378.jpg" alt="" />
-      <p className='food'>Migas</p>
+      <img className='img' src={pro.strMealThumb} alt="" />
+      <p className='food'>{pro.strMeal}</p>
     </div>
 
   )
