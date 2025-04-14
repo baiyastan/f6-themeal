@@ -1,14 +1,15 @@
 import React from 'react'
 import { letter } from '../../data/user'
 import { Link } from 'react-router-dom'
+import "./Letter.css"
 
 function Letter() {
   return (
-    <div>
+    <div className='letter'>
       {
         letter.map((item, index) => (
             <p key={index}>
-                <Link>{item}</Link>
+                <Link to={`/browse/${item}`}>{item}</Link> /
             </p>
         ))
       }
