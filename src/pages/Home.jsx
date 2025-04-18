@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import Banner from '../components/Banner/Banner'
-import Card from '../components/Card/Card'
 import { apiClient } from '../axios/apiClient'
 import ProductList from '../components/ProductList/ProductList'
 import Letter from '../components/Letter/Letter'
+import Country from '../components/Country/Country'
 
 function Home() {
   const [product, setProduct] = useState([])
@@ -30,7 +30,9 @@ function Home() {
       <Banner />
       <div className='container'>
         <ProductList data={product} />
+        <Country/>
         <Letter/>
+
       </div>
     </>
   )
